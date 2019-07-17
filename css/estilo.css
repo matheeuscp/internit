@@ -164,7 +164,7 @@ span{color: #54c5d0}
     .redes_sociais{display: none;}
     
     .divMenu{
-        widows: 100%;
+        width: 100%;
         background: #54c5d0;
     }
     
@@ -255,5 +255,12 @@ span{color: #54c5d0}
         z-index: 9999;
         margin-left: 10%;
         display: block!important;
+    }
+    .menu-responsivo{
+        display: none!important;
+    }
+    .ativo{
+        transition: 0.1s;
+        padding-left:  0px!important;    
     }
 }
